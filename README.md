@@ -29,7 +29,7 @@ The main purpose of this lab is to **test indexing strategies, analyze queries, 
 
 ## Features
 
-- Laravel 10 project structure  
+- Laravel 12 project structure  
 - **Post** model with Factory & Seeder  
 - Soft deletes implemented (`deleted_at`)  
 - Seeder generates multiple articles with fake data  
