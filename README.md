@@ -12,18 +12,29 @@
 
 ## About This Project
 
-**Laravel Indexing Performance Lab** is a hands-on Laravel project to experiment with **MySQL database indexing**, query performance, and **EXPLAIN analysis**.  
-The main purpose of this lab is to test indexing strategies and see how queries perform with seeded data.
+**Laravel Indexing Performance Lab** is a hands-on Laravel project for experimenting with **MySQL database indexing**, query performance, and **EXPLAIN analysis**.  
+The main purpose of this lab is to **test indexing strategies, analyze queries, and measure performance**.
+
+---
+
+## Roadmap / Versions
+
+| Version | Description |
+|---------|-------------|
+| **v1.0** | Lightweight initial release with 70 seeded articles, Live Demo placeholder, baseline performance measurement. |
+| **v2.0** | Extended release with thousands of articles, full performance testing, Live Demo available for stress testing. |
+| **v3.0** | Full indexing, query optimization, EXPLAIN analysis, and advanced performance evaluation. |
 
 ---
 
 ## Features
 
-- Laravel 12 project structure
-- Example **Post model** with Factory and Seeder
-- Soft deletes implemented (`deleted_at`) for testing
-- Seeder can generate multiple articles with fake data
-- Ready for experimenting with MySQL indexing, EXPLAIN, and query performance
+- Laravel 10 project structure  
+- **Post** model with Factory & Seeder  
+- Soft deletes implemented (`deleted_at`)  
+- Seeder generates multiple articles with fake data  
+- Ready for testing MySQL indexing and query performance  
+- Easy to expand for thousands of records  
 
 ---
 
