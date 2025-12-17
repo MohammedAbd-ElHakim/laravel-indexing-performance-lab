@@ -95,8 +95,6 @@ EXPLAIN SELECT * FROM posts WHERE deleted_at IS NULL;
 
 **Note**: This is expected for the current setup.
 
-### Live Demo : v1.0: Placeholder Live Demo available at: [Your Live Demo URL here]
-
 **NOTE:THIS PROJECT WILL CONTINUE IN V2.0 STAY TUNED**
 
 
