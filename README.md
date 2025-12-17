@@ -45,26 +45,27 @@ The main purpose of this lab is to **test indexing strategies, analyze queries, 
 ```bash
 git clone https://github.com/MohammedAbd-ElHakim/laravel-indexing-performance-lab.git
 cd laravel-indexing-performance-lab
-
----
+```
 
 2. Install dependencies:
 
 ```bash
 composer install
+```
 
----
 
 3. Copy .env.example to .env and configure database:
 
 ```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 4. Run migrations and seed data:
 
-```bash
+bash
 php artisan migrate --seed
+
 
 This will generate 70 posts by default using the PostSeeder.
 
