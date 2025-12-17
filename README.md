@@ -27,14 +27,14 @@ The main purpose of this lab is to **test indexing strategies, analyze queries, 
 
 ---
 
-## Features
+## Features v1
 
 - Laravel 12 project structure  
 - **Post** model with Factory & Seeder  
 - Soft deletes implemented (`deleted_at`)  
 - Seeder generates multiple articles with fake data  
 - Ready for testing MySQL indexing and query performance  
-- Easy to expand for thousands of records  
+- 70 posts created by seeders/factory
 
 ---
 
